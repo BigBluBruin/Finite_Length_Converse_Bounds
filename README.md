@@ -45,4 +45,7 @@ will give you the k=64 n=128 snr=0-3dB.
 
 
 
-![](/Users/nickwang/GitRepo/Sphere_Packing_bound/SP_demo.jpg)
+![](https://raw.githubusercontent.com/BigBluBruin/Sphere_Packing_bound/main/SP_demo.jpg)
+
+
+
