@@ -13,17 +13,19 @@ The use of this function is:
 
 ```matlab
 [FER] = Shannon_SP59(n,k,snr)
+[FER] = pc_awgn_lower_bound(n,rate,snr_val);
 ```
 
 
 
 Input arguments: 
 
-| Input argument |              meaning              |      valid value      |
-| :------------: | :-------------------------------: | :-------------------: |
-|       n        | blocklength (real-valued channel) |    integer scalar     |
-|       k        |         input bit number          |    integer scalar     |
-|      SNR       |        10log10(Es/sigma2)         | real scalar or vector |
+| Input argument |                   meaning                    |      valid value      |
+| :------------: | :------------------------------------------: | :-------------------: |
+|       n        |      blocklength (real-valued channel)       |    integer scalar     |
+|       k        |               input bit number               |    integer scalar     |
+|      rate      | transmission rate k/n [bit/real channel use] |      real scalr       |
+|      SNR       |              10log10(Es/sigma2)              | real scalar or vector |
 
 
 
